@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="icon" href="./assets/images/icons/logo.jpg">
+  <title>Yulia Lugovaya</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navbar fixed-top navbar-expand-xxl">
+        <div class="container-fluid">
+          <div class="header__top-wrapper">
+            <div class="header__top">
+              <a class="navbar-brand" href="./index.html">
+                <h1 class="logo">Юлия Луговая</h1>
+              </a>
+              <div class="header__buttons">
+                <a href="#contacts" type="button" class="button header__button">
+                  <p class="button-text header__button-text">Заказать съемку</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">Обо мне</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Портфолио</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Стоимость</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+            <div class="header__contacts">
+              <a href="#"><img class="header__contacts-links" src="./assets/images/icons/instagram.png"
+                  alt="instagram"></a>
+              <a href="#"><img class="header__contacts-links" src="./assets/images/icons/telephone.png" alt="phone"></a>
+              <a href="#"><img class="header__contacts-links" src="./assets/images/icons/mail.png" alt="e-mail"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="about" id="about-me">
+        <div class="titles">
+          <h2 class="title">Обо мне</h2>
+          <h2 class="title-eng">About me</h2>
+        </div>
+        <div class="information">
+          <div class="story">
+            <p class="text">Привет! Меня зовут Юля.
+            </p>
+            <p class="text">Будучи влюбленной в репортажную фотографию и естественный дневной свет, я специализируюсь на
+              семейной документальной съёмке. Она подразумевает особую атмосферу, легкость, свободу действий. Также с
+              удовольствием снимаю будущих мам, женские портреты и истории любви. А ещё практикую
+              контентные съёмки.
+            </p>
+            <p class="text">У вас навсегда останется история, которую однажды передадите потомкам. Вы увидите на снимках
+              самые тёплые, интересные, эмоциональные и смешные моменты.
+            </p>
+            <p class="text">У вас мало опыта в съемках? Я подскажу, что нужно делать, проведу съёмку и отпущу вас
+              намного
+              быстрее, чем вы почувствуете усталость.</p>
+          </div>
+          <img class="photographer-photo" src="./assets/images/photos/photo.jpg" alt="Yulia Lugovaya">
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="titles">
+          <h2 class="title">Портфолио</h2>
+          <h2 class="title-eng">Portfolio</h2>
+        </div>
+        <div class="portfolio__buttons">
+          <button class="portfolio__button portfolio__button_family active">Family</button>
+          <button class="portfolio__button portfolio__button_portrait">Portrait</button>
+        </div>
+        <div class="portfolio__container portfolio__family-container">
+          <div class="portfolio__photos">
+            <img class="photo" src="./assets/images/photos/family/vertical/1.jpg" alt="family">
+            <img class="photo" src="./assets/images/photos/family/vertical/11.jpg" alt="family">
+            <img class="photo" src="./assets/images/photos/family/vertical/16.jpg" alt="family">
+            <img class="photo" src="./assets/images/photos/family/vertical/17.jpg" alt="family">
+            <img class="photo" src="./assets/images/photos/family/vertical/19.jpg" alt="family">
+            <img class="photo" src="./assets/images/photos/family/vertical/2.jpg" alt="family">
+          </div>
+          <a class="button button-link" href="./family.html">
+            <p class="button-text">Смотреть больше</p>
+          </a>
+        </div>
+        <div class="portfolio__container portfolio__portrait-container">
+          <div class="portfolio__photos">
+            <img class="photo" src="./assets/images/photos/portrait/vertical/1.jpg" alt="portrait">
+            <img class="photo" src="./assets/images/photos/portrait//vertical/10.jpg" alt="portrait">
+            <img class="photo" src="./assets/images/photos/portrait/vertical/11.jpg" alt="portrait">
+            <img class="photo" src="./assets/images/photos/portrait/vertical/12.jpg" alt="portrait">
+            <img class="photo" src="./assets/images/photos/portrait/vertical/13.jpg" alt="portrait">
+            <img class="photo" src="./assets/images/photos/portrait/vertical/15.jpg" alt="portrait">
+          </div>
+          <a class="button button-link" href="./portrait.html">
+            <p class="button-text">Смотреть больше</p>
+          </a>
+        </div>
+      </section>
+      <section class="price" id="price">
+        <div class="titles">
+          <h2 class="title">Стоимость</h2>
+          <h2 class="title-eng">Price</h2>
+        </div>
+        <div class="price__container">
+          <div class="price__wrapper">
+            <div class="price__bag">
+              <h3 class="price__title">Lite</h3>
+              <p class="price__value">130 BYN</p>
+              <ul class="price__list">
+                <li>фотосъёмка в течение <span class="emphasis">30 </span>минут;</li>
+                <li>от <span class="emphasis">35</span> фотографий в обработке;</li>
+                <li>чёрно-белые варианты всех фото;</li>
+                <li>помощь с выбором локации, образов и деталей;</li>
+                <li>готовность фотографий — до <span class="emphasis">2</span> недель;</li>
+                <li>приватная онлайн-галерея</li>
+              </ul>
+            </div>
+            <div class="price__bag">
+              <h3 class="price__title">Standart</h3>
+              <p class="price__value">180 BYN</p>
+              <ul class="price__list">
+                <li>фотосъёмка в течение <span class="emphasis">1 </span>часа;</li>
+                <li>от <span class="emphasis">80</span> фотографий в обработке;</li>
+                <li>чёрно-белые варианты всех фото;</li>
+                <li>помощь с выбором локации, образов и деталей;</li>
+                <li>готовность фотографий — до <span class="emphasis">3</span> недель;</li>
+                <li>приватная онлайн-галерея</li>
+              </ul>
+            </div>
+            <div class="price__bag">
+              <h3 class="price__title">Maximum</h3>
+              <p class="price__value">230 BYN</p>
+              <ul class="price__list">
+                <li>фотосъёмка в течение <span class="emphasis">1,5-2 </span>часов;</li>
+                <li>от <span class="emphasis">130</span> фотографий в обработке;</li>
+                <li>чёрно-белые варианты всех фото;</li>
+                <li>помощь с выбором локации, образов и деталей;</li>
+                <li>готовность фотографий — до <span class="emphasis">4</span> недель;</li>
+                <li>приватная онлайн-галерея</li>
+              </ul>
+            </div>
+          </div>
+          <a class="button button-link" href="#contacts">
+            <p class="button-text">Заказать съемку</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="footer__wrapper">
+        <div class="titles">
+          <h2 class="title">Контакты</h2>
+          <h2 class="title-eng">Contacts</h2>
+        </div>
+        <div class="contacts">
+          <div class="contacts__items">
+            <a class="contacts__item" href="#"><img class="icons" src="./assets/images/icons/location.png"
+                alt="location">
+              <p class="contacts__text">Гомель, Беларусь</p>
+            </a>
+            <a class="contacts__item" href="#"><img class="icons" src="./assets/images/icons/telephone.png" alt="phone">
+              <p class="contacts__text">+375(29) 152-18-80</p>
+            </a>
+          </div>
+          <div class="contacts__items">
+            <a class="contacts__item" href="#"><img class="icons" src="./assets/images/icons/instagram.png"
+                alt="instagram">
+              <p class="contacts__text">yulia.lugovaya</p>
+            </a>
+            <a class="contacts__item" href="#"><img class="icons" src="./assets/images/icons/mail.png" alt="e-mail">
+              <p class="contacts__text">yulialugovayaphoto@gmail.com</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contract">
+        <p class="contacts__text">Фотограф Юлия Луговая.</p>
+        <a class="link" href="./offer.html">
+          <p class="contacts__text contacts__text_offer">Договор оферты</p>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

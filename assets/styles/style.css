@@ -1,0 +1,482 @@
+@import url(./header.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Open+Sans:wght@300;400;600&display=swap");
+
+body {
+  background-color: #f8f7f5;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 {
+  margin: 0;
+}
+
+.main,
+.footer__wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7%;
+  position: relative;
+}
+
+.title-eng {
+  position: absolute;
+  top: -70%;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 7rem;
+  color: #00000007;
+}
+
+.title {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #c4baa9;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  transition: 0.3s ease;
+  background-color: #8a7d69;
+}
+
+.button-text {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/* about me */
+
+.about {
+  padding-top: 15%;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+
+.photographer-photo {
+  width: 30%;
+  object-fit: contain;
+}
+
+.story {
+  width: 50%;
+}
+
+/* portfolio */
+
+.portfolio {
+  padding-top: 15%;
+}
+
+.portfolio__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.portfolio__button {
+  width: 200px;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #00000010;
+  background-color: transparent;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.portfolio__button.active {
+  border-bottom: 2px solid #000000;
+}
+
+.portfolio__photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5%;
+}
+
+.photo {
+  width: 30%;
+}
+
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__portrait-container {
+  display: none;
+}
+
+/* price */
+
+.price {
+  padding-top: 15%;
+}
+
+.price__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5%;
+}
+
+.price__bag {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* contacts */
+
+.footer {
+  padding-top: 15%;
+}
+
+.contacts {
+  display: flex;
+  padding-bottom: 5%;
+}
+
+.contacts__items {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.contacts__text {
+  margin: 0;
+}
+
+.contacts__text_offer {
+  border-bottom: 1px solid #000000;
+}
+
+.icons {
+  width: 20px;
+}
+
+.contract {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: #c4baa9;
+}
+
+/* family - page */
+
+.photos-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 20%;
+}
+
+.photo-container {
+  height: 500px;
+}
+
+.vertical {
+  width: 370px;
+  overflow: hidden;
+  position: relative;
+}
+
+.photography {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* offer */
+
+.offer {
+  padding-top: 15%;
+}
+
+.title_offer {
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subtitle {
+  margin: 30px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+/* media */
+
+@media screen and (min-width: 1400px) {
+  .header__button {
+    position: absolute;
+    right: 3.5%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container-fluid {
+    width: 100%;
+  }
+
+  .nav-link {
+    margin-top: 30px;
+    margin-left: 0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: none;
+  }
+
+  .navbar {
+    border: none;
+  }
+
+  .navbar-brand {
+    margin-top: 0;
+  }
+
+  .navbar-nav {
+    width: 80%;
+    padding: 3vh 0 8vh;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .header__top-wrapper {
+    width: 100%;
+  }
+
+  .header__top-wrapper_active {
+    background: #dbd3c6;
+  }
+
+  .header__top {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .header__contacts {
+    padding: 25% 0;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .header__contacts-links {
+    width: 35px;
+  }
+
+  .header__button {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    width: 90%;
+  }
+
+  .about {
+    padding-top: 30%;
+  }
+
+  .portfolio,
+  .price,
+  .footer {
+    padding-top: 20%;
+  }
+
+  .titles {
+    margin-bottom: 12%;
+  }
+
+  .title-eng {
+    font-size: 6rem;
+  }
+
+  .photographer-photo {
+    width: 50%;
+  }
+
+  .photo {
+    width: 45%;
+  }
+
+  .price__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .photos-wrapper {
+    padding-top: 30%;
+  }
+
+  .photo-container {
+    height: 450px;
+  }
+
+  .vertical {
+    width: 332px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .photo-container {
+    height: 100%;
+  }
+
+  .vertical {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header__button {
+    width: 50px;
+  }
+
+  .header__button-text {
+    display: none;
+  }
+
+  .nav-link {
+    margin-top: 25px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .navbar-brand {
+    margin-top: 0;
+  }
+
+  .header__contacts {
+    padding: 30% 0 50% 0;
+  }
+
+  .header__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .navbar-brand img {
+    width: 170px;
+  }
+
+  .navbar-nav {
+    width: 90%;
+    padding-bottom: 4vh;
+    padding-top: 30px;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .header__top {
+    width: 92%;
+  }
+
+  .main {
+    width: 92%;
+  }
+
+  .about {
+    padding-top: 35%;
+  }
+
+  .portfolio,
+  .price,
+  .footer {
+    padding-top: 25%;
+  }
+
+  .information {
+    flex-direction: column-reverse;
+  }
+
+  .story, .photographer-photo, .photo {
+    width: 100%;
+  }
+
+  .titles {
+    margin-bottom: 20%;
+  }
+
+  .title-eng {
+    font-size: 4rem;
+  }
+
+  .contacts {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20%;
+  }
+
+  .contacts__items {
+    width: 100%;
+  }
+
+  .contract {
+    flex-direction: column;
+  }
+
+  .photography {
+    width: 100%;
+    height: 100%;
+  }
+
+  .photos-wrapper {
+    padding-top: 35%;
+  }
+}
