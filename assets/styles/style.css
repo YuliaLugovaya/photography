@@ -313,7 +313,7 @@ h2 {
   }
 
   .header__contacts-links {
-    width: 35px;
+    width: 30px;
   }
 
   .header__button {
@@ -355,6 +355,10 @@ h2 {
   .price__wrapper {
     flex-direction: column;
   }
+
+  .offer {
+    padding-top: 20%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -391,8 +395,8 @@ h2 {
   }
 
   .nav-link {
-    margin-top: 25px;
-    font-size: 32px;
+    margin-top: 20px;
+    font-size: 1.5rem;
     line-height: 32px;
   }
 
@@ -401,7 +405,7 @@ h2 {
   }
 
   .header__contacts {
-    padding: 30% 0 50% 0;
+    padding: 20% 0 70% 0;
   }
 
   .header__title {
@@ -479,5 +483,9 @@ h2 {
 
   .photos-wrapper {
     padding-top: 35%;
+  }
+
+  .offer {
+    padding-top: 30%;
   }
 }
