@@ -298,7 +298,7 @@ h2 {
   }
 
   .header__top-wrapper_active {
-    background: #dbd3c6;
+    background: #f8f7f5;
   }
 
   .header__top {
@@ -395,7 +395,7 @@ h2 {
   }
 
   .nav-link {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 1.5rem;
     line-height: 32px;
   }
@@ -405,7 +405,7 @@ h2 {
   }
 
   .header__contacts {
-    padding: 20% 0 70% 0;
+    padding: 15% 0 80% 0;
   }
 
   .header__title {
@@ -444,6 +444,10 @@ h2 {
   .price,
   .footer {
     padding-top: 25%;
+  }
+
+  .portfolio__photos, .price__wrapper {
+    margin-bottom: 15%
   }
 
   .information {
