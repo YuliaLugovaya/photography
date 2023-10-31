@@ -382,7 +382,7 @@ h2 {
 
 @media screen and (max-width: 650px) {
   .header__button {
-    width: 50px;
+    display: none;
   }
 
   .header__button-text {
