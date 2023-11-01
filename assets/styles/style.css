@@ -259,6 +259,12 @@ h2 {
   font-weight: bold;
 }
 
+.into-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
 /* media */
 
 @media screen and (min-width: 1400px) {
@@ -366,6 +372,10 @@ h2 {
 
   .offer {
     padding-top: 20%;
+  }
+
+  .into-main {
+    margin-top: 10%;
   }
 }
 
