@@ -79,7 +79,7 @@ h2 {
 }
 
 .photographer-photo {
-  width: 30%;
+  width: 45%;
   object-fit: contain;
 }
 
@@ -159,6 +159,11 @@ h2 {
 .price__bag {
   padding: 20px;
   background-color: #ffffff;
+}
+
+.focus {
+  font-weight: bold;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 /* contacts */
@@ -344,8 +349,12 @@ h2 {
     font-size: 6rem;
   }
 
-  .photographer-photo {
-    width: 50%;
+  .information {
+    flex-direction: column-reverse;
+  }
+
+  .story, .photographer-photo, .photo {
+    width: 100%;
   }
 
   .photo {
@@ -448,14 +457,6 @@ h2 {
 
   .portfolio__photos, .price__wrapper {
     margin-bottom: 15%
-  }
-
-  .information {
-    flex-direction: column-reverse;
-  }
-
-  .story, .photographer-photo, .photo {
-    width: 100%;
   }
 
   .titles {
