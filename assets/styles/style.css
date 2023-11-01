@@ -161,11 +161,6 @@ h2 {
   background-color: #ffffff;
 }
 
-.focus {
-  font-weight: bold;
-  font-family: "Montserrat Alternates", sans-serif;
-}
-
 /* contacts */
 
 .footer {
@@ -257,6 +252,10 @@ h2 {
 }
 
 .text_bold {
+  font-weight: bold;
+}
+
+.focus {
   font-weight: bold;
 }
 
@@ -457,6 +456,14 @@ h2 {
 
   .portfolio__photos, .price__wrapper {
     margin-bottom: 15%
+  }
+
+  .information {
+    flex-direction: column-reverse;
+  }
+
+  .story, .photographer-photo, .photo {
+    width: 100%;
   }
 
   .titles {
