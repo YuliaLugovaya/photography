@@ -292,6 +292,10 @@ h2 {
     border: none;
   }
 
+  .navbar-nav-scroll {
+    height: 100vh;
+  }
+
   .navbar-brand {
     margin-top: 0;
   }
@@ -358,7 +362,9 @@ h2 {
     flex-direction: column-reverse;
   }
 
-  .story, .photographer-photo, .photo {
+  .story,
+  .photographer-photo,
+  .photo {
     width: 100%;
   }
 
@@ -422,6 +428,10 @@ h2 {
     margin-top: 0;
   }
 
+  .navbar-nav-scroll {
+    --bs-scroll-height: 90vh;
+  }
+
   .header__contacts {
     padding: 15% 0 80% 0;
   }
@@ -464,15 +474,18 @@ h2 {
     padding-top: 25%;
   }
 
-  .portfolio__photos, .price__wrapper {
-    margin-bottom: 15%
+  .portfolio__photos,
+  .price__wrapper {
+    margin-bottom: 15%;
   }
 
   .information {
     flex-direction: column-reverse;
   }
 
-  .story, .photographer-photo, .photo {
+  .story,
+  .photographer-photo,
+  .photo {
     width: 100%;
   }
 
@@ -492,6 +505,10 @@ h2 {
 
   .contacts__items {
     width: 100%;
+  }
+
+  .contacts__text {
+    word-break: break-all;
   }
 
   .contract {
