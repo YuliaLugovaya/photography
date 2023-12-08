@@ -153,12 +153,21 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 
 .price__bag {
   padding: 20px;
   background-color: #ffffff;
+}
+
+.photobooks {
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+.photobooks__link {
+  border-bottom: 1px solid #000000;
 }
 
 /* contacts */
@@ -475,7 +484,7 @@ h2 {
   }
 
   .portfolio__photos,
-  .price__wrapper {
+  .photobooks {
     margin-bottom: 15%;
   }
 
