@@ -103,17 +103,17 @@ navContainer.addEventListener("click", (e) => {
 
 if (portfolioButtons) {
   portfolioButtons.addEventListener("click", (e) => {
-    if (e.target.classList.contains("portfolio__button_family")) {
-      portfolioButton.forEach((button) => button.classList.remove("active"));
-      e.target.classList.add("active");
-      portfolioFamily.style.display = 'flex';
-      portfolioPortrait.style.display = 'none';
-    }
     if (e.target.classList.contains("portfolio__button_portrait")) {
       portfolioButton.forEach((button) => button.classList.remove("active"));
       e.target.classList.add("active");
-      portfolioPortrait.style.display = 'flex';
       portfolioFamily.style.display = 'none';
+      portfolioPortrait.style.display = 'flex';
+    }
+    if (e.target.classList.contains("portfolio__button_family")) {
+      portfolioButton.forEach((button) => button.classList.remove("active"));
+      e.target.classList.add("active");
+      portfolioPortrait.style.display = 'none';
+      portfolioFamily.style.display = 'flex';
     }
   })
 }
